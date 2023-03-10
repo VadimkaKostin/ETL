@@ -1,0 +1,69 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "ApplicationContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "DataWarehouse",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "ETL",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Dim_Airlines]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Dim_Airports]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Dim_City]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Dim_Date]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Dim_Flight_Number]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Dim_State]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Fact_Delays]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Fact_Flights]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "LAPTOP-F47OH73P\\MSSQLSERVERVK.Flights_DataWarehouse",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
